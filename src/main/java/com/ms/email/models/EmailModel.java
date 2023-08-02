@@ -1,7 +1,11 @@
 package com.ms.email.models;
 
 import com.ms.email.enums.StatusEmail;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -9,6 +13,9 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "TB_EMAIL")
 public class EmailModel implements Serializable {
