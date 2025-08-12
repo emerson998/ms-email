@@ -11,7 +11,7 @@ Serviço de envio e consulta de e-mails utilizando **Java + Spring Boot** e **Ja
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Java 17**
 - **Spring Boot**
 - **Spring Data JPA**
@@ -22,7 +22,7 @@ Serviço de envio e consulta de e-mails utilizando **Java + Spring Boot** e **Ja
 
 ---
 
-## 📂 Estrutura do Serviço
+## Estrutura do Serviço
 ```text
 com.ms.email
  ├── enums
