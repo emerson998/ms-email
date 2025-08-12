@@ -1,8 +1,8 @@
-# 📧 MS-EMAIL
+# MS-EMAIL
 
 Serviço de envio e consulta de e-mails utilizando **Java + Spring Boot** e **JavaMailSender**.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 - Envio de e-mails com remetente, destinatário, assunto e corpo da mensagem.
 - Registro do status de envio (`SENT` ou `ERROR`) e data/hora de envio.
 - Persistência das informações no banco de dados.
